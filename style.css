@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+English+SC&display=swap');
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  background-color: #946b2d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  margin: 30px 0;
+  display: flex;
+  gap: 40px;
+}
+button {
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+#rock {
+  background-color: #740001;
+}
+
+#paper {
+  background-color: #1A472A;
+}
+
+  #scissors {
+    background-color: #0E1A40;
+  }
+
+  p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'IM Fell English SC', serif;
+    color: #0E1A40;
+  }
+
+  .your-score span {
+    color:#1A472A
+  }
+
+  .machine-score span {
+    color:#740001
+  }
+
+  h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #740001;
+  }
